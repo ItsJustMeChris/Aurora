@@ -1,4 +1,4 @@
-let floof = require('floof');
+let floof = require('aurora-router');
 let http = require('http');
 let router = require('./router');
 

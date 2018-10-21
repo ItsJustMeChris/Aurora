@@ -30,6 +30,3 @@ router.get('/user-panel', (req, res) => {
     res.write("user-panel");
     res.end();
 });
-
-
-router.route('/user/update', 'post', 'User#update')

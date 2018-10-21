@@ -8,5 +8,7 @@
   },
   "author": "ItsJustMeChris",
   "license": "gpl-3.0",
-  "dependencies": {}
+  "dependencies": {
+    "jshint": "^2.9.6"
+  }
 }

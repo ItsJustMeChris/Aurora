@@ -1,9 +1,9 @@
-let floof = require('aurora-router');
+let router = require('aurora-router');
 let http = require('http');
-let router = require('./router');
+require('./router');
 
 http.createServer(function (req, res) {
     if (req.url != '/favicon.ico') {
-        floof.router(req, res);
+        router.handle(req, res);
     }
-}).listen(8080); 
+}).listen(8080);
